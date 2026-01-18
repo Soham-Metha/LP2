@@ -26,5 +26,8 @@ $(eval $(call BUILD_RULE, $(EXEC_FILE), $(MAIN_FILE) $(SRC_FILES)))
 
 all: $(EXEC_FILE)
 
+PRAC_NO := 1
+IN := ./extras/p1_1.txt
+
 run_all: all
-	@$(EXEC_FILE)
+	@$(EXEC_FILE) --prac $(PRAC_NO) -i $(IN)
