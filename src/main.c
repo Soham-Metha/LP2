@@ -19,6 +19,10 @@ int main(int argc, char** argv)
     switch (sv_to_uint(&prac_no)) {
     case 1:
         return prac_1_main(&arena, file);
+    case 11:
+        return prac_11_main(&arena, file);
+    case 21:
+        return prac_21_main(&arena, file);
     }
 
     arena_free(&arena);

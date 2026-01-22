@@ -17,5 +17,7 @@
 #define CURSOR_RESET "\033[H  "
 
 int prac_1_main(Arena* arena, String_View file);
+int prac_11_main(Arena* arena, String_View file);
+int prac_21_main(Arena* arena, String_View file);
 
 #endif
